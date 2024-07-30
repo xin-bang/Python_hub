@@ -19,3 +19,34 @@
 Usage: python replace_fasta_names.py <mapping_file> <fasta_file> <output_file
 python3 replace_fasta_names.py name.txt 240708_TPMN00173_0339_A000H5VGV7_肺支_dTGM070_cluster.fasta 240708_TPMN00173_0339_A000H5VGV7_肺支_dTGM070_rename.fasta
 ```
+
+
+
+## 02_customer_blast_operate
+
+    指定多个def module；调用本地nt库，使用Bio的接口进行blast运行，同时对blast结果进行整理操作。一些python的写法比较老道
+
+#### 功能
+
+* 根据输入文件索引相应的序列文件，
+* 对相应的序列文件进行blast 比对，去100个比对结果，
+* 从比对结果中进一步处理，按照相应的格式进行排序：
+
+```
+例如：
+    Adenovirus|count:12(23%)|pid_cov:97
+    Adenovirus|count:12(8%)|pid_cov:96
+    Adenovirus|count:12(2%)|pid_cov:90
+< 按照比对HSP对应的物种拉丁名进行group_by；count为该物种的HSP占比情况；pid_cov为ident和cov的趁机，取最大值>
+```
+
+#### 使用
+
+```
+usage: customer_blast_operate.py [-h] [-i I] [-p P] [-m M] [-o O]RP8的IVD项目：自动化blast和操作比对结果 For example: python customer_blast_operate.py -i input.file -p sequence.path -o output -m max_target_seqsoptional arguments:
+  -h, --help  show this help message and exit
+  -i I        由实验同时填写的输入文档，必须包含：病原种拉丁名和生产编号两列
+  -p P        一代测序的存放位置
+  -m M        指定blast的max_target_seqs参数,默认是100
+  -o O        输出结果文件名称
+```

@@ -1,0 +1,2 @@
+AC010170	Homo sapiens	189	91	100.000	2.19e-82
+AC006515	Homo sapiens	189	91	100.000	2.19e-82
