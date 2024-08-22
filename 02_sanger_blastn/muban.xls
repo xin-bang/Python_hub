@@ -1,0 +1,33 @@
+病原种中文名	病原种拉丁名	样本编号	引物名称	流程状态	报告异常	生产编号
+人偏肺病毒	Human Metapneumovirus	Ut2482350	SxMPV02	报告成功		30396713
+博卡病毒	Bocavirus	Ut2482466	SxBOV1	报告成功	polyA	30411831
+人偏肺病毒	Human Metapneumovirus	Ut2482758	SxMPV02	报告成功		30396714
+鼻病毒	Rhinovirus	Ut2482758	SxRV04	报告成功	双峰	30396762
+副流感病毒	Parainfluenza Virus	Ut2483253	SxHPIV2	报告成功		30411871
+副流感病毒	Parainfluenza Virus	Ut2483282	SxHPIV4	报告成功		30411944
+鼻病毒	Rhinovirus	Ut2483480	SxRV04	报告成功	双峰	30396760
+副流感病毒	Parainfluenza Virus	Ut2483480	SxHPIV2	报告成功		30411880
+博卡病毒	Bocavirus	Ut2483480	SxBOV1	报告成功	polyA	30411832
+呼吸道合胞病毒	Respiratory Syncytial Virus	Ut2483500	SxRSV01	报告成功		30396732
+冠状病毒	Coronavirus	Ut2483542	SxNL63	报告成功		30412033
+呼吸道合胞病毒	Respiratory Syncytial Virus	Ut2483567	SxRSV01	报告成功		30396733
+呼吸道合胞病毒	Respiratory Syncytial Virus	Ut2483572	SxRSV01	报告成功		30396734
+腺病毒	Adenovirus	Ut2483572	SxADV03	报告成功	双峰	30411806
+鼻病毒	Rhinovirus	Ut2483647	SxRV04	报告成功		30396748
+副流感病毒	Parainfluenza Virus	Ut2483647	SxHPIV4	报告成功	polyT	30411939
+副流感病毒	Parainfluenza Virus	Ut2483657	SxHPIV3	报告成功		30411915
+鼻病毒	Rhinovirus	Ut2483670	SxRV04	报告成功		30396749
+冠状病毒	Coronavirus	Ut2483878	SxNL63	报告成功		30412034
+肺炎支原体	Mycoplasma Pneumoniae	Ut2483887	SxMP	报告成功	重复序列	30396678
+腺病毒	Adenovirus	Ut2484520	SxADV03	报告成功		30411812
+腺病毒	Adenovirus	Ut2484574	SxADV03	报告成功		30411811
+副流感病毒	Parainfluenza Virus	Ut2486334	SxHPIV4	报告成功	polyT	30411934
+副流感病毒	Parainfluenza Virus	Ut2486334	SxHPIV1	报告成功		30411839
+副流感病毒	Parainfluenza Virus	Ut2486334	SxHPIV2	报告成功	双峰	30411863
+腺病毒	Adenovirus	Ut2486349	SxADV03	报告成功		30411793
+副流感病毒	Parainfluenza Virus	Ut2486689	SxHPIV4	报告成功		30411937
+鼻病毒	Rhinovirus	Ut2487327	SxRV04	报告成功		30396742
+副流感病毒	Parainfluenza Virus	Ut2487327	SxHPIV2	报告成功		30411862
+腺病毒	Adenovirus	Ut2487535	SxADV03	报告成功		30411795
+副流感病毒	Parainfluenza Virus	Ut2487535	SxHPIV2	报告成功	双峰，可能为缺失突变	30411867
+冠状病毒	Coronavirus	Ut2487764	SxOC43	报告成功		30412047
