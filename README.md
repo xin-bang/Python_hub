@@ -4,35 +4,37 @@
 
 ## 01_replace_fasta_name
 
-    代码逻辑足够简洁，且处理序列相关的问题，仅使用到python的sys包，没有调用biopython（当然主要操作对象不是碱基序列）
+```         
+代码逻辑足够简洁，且处理序列相关的问题，仅使用到python的sys包，没有调用biopython（当然主要操作对象不是碱基序列）
+```
 
 #### 功能：
 
 根据name.txt的信息，对序列文件的序列名称进行名称替换
 
-* 输入文件1：name.txt：包含序列的原始名称、需要替换的名称
-* 输入文件2：待处理的序列文件
+-   输入文件1：name.txt：包含序列的原始名称、需要替换的名称
+-   输入文件2：待处理的序列文件
 
 #### 使用：
 
-```python
+``` python
 Usage: python replace_fasta_names.py <mapping_file> <fasta_file> <output_file
 python3 replace_fasta_names.py name.txt 240708_TPMN00173_0339_A000H5VGV7_肺支_dTGM070_cluster.fasta 240708_TPMN00173_0339_A000H5VGV7_肺支_dTGM070_rename.fasta
 ```
 
-
-
 ## 02_sanger_blastn
 
-    指定多个def module；调用本地nt库，使用Bio的接口进行blast运行，同时对blast结果进行整理操作。一些python的写法比较老道
+```         
+指定多个def module；调用本地nt库，使用Bio的接口进行blast运行，同时对blast结果进行整理操作。一些python的写法比较老道
+```
 
 #### 功能
 
-* 根据输入文件索引相应的序列文件，
-* 对相应的序列文件进行blast 比对，去100个比对结果，
-* 从比对结果中进一步处理，按照相应的格式进行排序：
+-   根据输入文件索引相应的序列文件，
+-   对相应的序列文件进行blast 比对，去100个比对结果，
+-   从比对结果中进一步处理，按照相应的格式进行排序：
 
-```
+```         
 例如：
     Adenovirus|count:12(23%)|pid_cov:97
     Adenovirus|count:12(8%)|pid_cov:96
@@ -42,7 +44,7 @@ python3 replace_fasta_names.py name.txt 240708_TPMN00173_0339_A000H5VGV7_肺支_
 
 #### 使用
 
-```
+```         
 usage: sanger_blastn.py [-h] [-i I] [-p P] [-m M] [-o O] [-x X] [-s S]
 
 Sanger产物序列blast到NT库，并整理分析比对结果 For example: python sanger_blastn.py -i input.file -p sequence.path -o output -m max_target_seqs
